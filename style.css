@@ -32,15 +32,47 @@
 }
 
 .jumbotron .container img {
-    width: 200px;
+    width: 250px;
 }
 
 .jumbotron .container h1 {
+    margin-top: 50px;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .jumbotron {
     background-color: #1ABC9C
+}
+
+.separazione {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 300px;
+}
+
+.separazione::after,
+.separazione::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 50px) / 2);
+    height: 4px;
+    background-color: white;
+}
+
+.separazione::before {
+    left: 0;
+}
+
+.separazione::after {
+    right: 0;
+}
+
+.fa-star {
+    font-size: 30px;
+    color: white;
 }
