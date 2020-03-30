@@ -1,0 +1,46 @@
+.navbar-default {
+    background-color: #2C3E50;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-nav.navbar-right {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 32px;
+}
+
+.jumbotron .container img {
+    width: 200px;
+}
+
+.jumbotron .container h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #1ABC9C
+}
