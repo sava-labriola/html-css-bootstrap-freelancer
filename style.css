@@ -76,3 +76,9 @@
     font-size: 30px;
     color: white;
 }
+
+.jumbotron .container p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
