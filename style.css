@@ -47,7 +47,7 @@
 }
 
 .separazione {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     position: relative;
     width: 300px;
@@ -75,4 +75,36 @@
 .fa-star {
     font-size: 30px;
     color: white;
+}
+
+.black {
+    color: #2C3E50;
+}
+
+.separazione-black.separazione::after,
+.separazione-black.separazione::before {
+    background-color: #2C3E50;
+}
+
+#portfolio h2 {
+    margin-top: 60px;
+    font-size: 45px;
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+.immagine {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.margin {
+    margin-bottom: 50px;
+}
+
+#paragrafo1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
